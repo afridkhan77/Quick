@@ -1,0 +1,397 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+  text-decoration: none;
+}
+.container{
+  width: 1140px;
+  margin: 0px auto;
+}
+.banner{
+  width: 100%;
+}
+.row{
+  width: 100%;
+  float: left;
+}
+.col-lg-12{
+  width: 100%;
+  float: left;
+}
+.col-lg-4{
+  width: 33.33%;
+  float: left;
+}
+.col-lg-3{
+  width: 25%;
+  float: left;
+}
+.col-lg-6{
+  width: 50%;
+  float: left;
+}
+.col-lg-9{
+  width: 75%;
+  float: left;
+}
+/* header code start*/
+.header{
+  width: 100%;
+  float: left;
+  padding: 10px 0px;
+  border-bottom: 1px solid #eee;
+}
+.header .logo{
+  display: block;
+  width: 100%;
+}
+.header .navbar{
+  text-align: right;
+  width: 100%;
+  float: left;
+}
+.header .navbar li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 0px 0px 0px;
+}
+.header .navbar li a{
+  font-size: 14px;
+  font-weight: 600;
+  color: #0B2253;
+  margin: 0px 0px 0px 25px;
+  text-transform: capitalize;
+}
+.header .navbar li a:hover, .header .navbar li a:focus{
+  color: #008AFF;
+}
+/* online-business code start*/
+.online-business{
+  width: 100%;
+  float: left;
+  padding: 80px 0px;
+  text-align: center;
+}
+.online-business h1{
+font-size: 70px;
+line-height: 80px;
+color: #0B2253;
+margin: 0px 0px 10px;
+
+}
+.online-business h1 span{
+  color: #36A3FF;
+}
+.online-business p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #0B2253;
+    margin: 0px 0px 10px ;
+}
+.online-business .banner-img{
+     width: 70%;
+     margin: 20px 0px 0px;
+}
+/*successfull code start*/
+.successfull{
+  width: 100%;
+  float: left;
+  padding: 30px 0px 80px;
+}
+.successfull .left-text{
+  width: 100%;
+  float: left;
+  text-align: right;
+}
+.successfull .left-text h3{
+  font-size: 52px;
+    line-height: 62px;
+    color: #F05162;
+    margin: 0px 15px 5px 0px ;
+}
+.successfull .left-text p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #0B2253;
+  margin: 0px 15px 10px 0px;
+}
+.successfull .right-text{
+  width: 100%;
+  float: left;
+}
+.successfull .right-text h3{
+  font-size: 52px;
+    line-height: 62px;
+    color: #0B2253;
+    margin: 0px 0px 5px 15px ;
+}
+.feature{
+  width: 100%;
+  float: left;
+  padding: 0PX 0PX 80PX;
+}
+.inner-feature{
+  width: 75%;
+  float: left;
+  padding: 40px 30px;
+  margin: 0px 20px;
+}
+.inner-feature h4{
+  font-size: 18px;
+  line-height: 28px;
+  color: #0B2253;
+  margin: 10px 0px 10px;
+}
+.inner-feature p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #0B2253;
+}
+.inner-feature img{
+  width: 100%;
+  height: 180px;
+}
+.cl1{
+  background-color: #FDEBED;
+  
+}
+.cl2{
+  background-color: #EBF9F4;
+  
+}
+.cl3{
+  background-color: #FFF7E8;
+  
+}
+.footer{
+  width: 100%;
+  float: left;
+  padding: 30px 0px;
+  background-color: #008AFF;
+}
+.footer p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
+.footer p a{
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.footer p a:hover, .footer p a:focus{
+  color: #000;
+}
+
+/* responsive css media code start*/
+
+@media (min-width: 279px) and (max-width: 319px){
+  .container{
+    width: 100%;
+    margin: 0px auto;
+  }
+  .row{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-12{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-3{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-6{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-9{
+    width: 100%;
+    float: left;
+  }
+  .header .navbar li a{
+    font-size: 11px;
+    margin: 5px 0px 0px 9px;
+    
+  }
+  .online-business h1{
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .successfull .right-text h3{
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .inner-feature{
+    padding: 10px 20px;
+    margin: 0px 10px 20px;
+    width: 77%;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px){
+  .container{
+    width: 100%;
+    margin: 0px auto;
+  }
+  .row{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-12{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-3{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-6{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-9{
+    width: 100%;
+    float: left;
+  }
+  .header .navbar li a{
+    font-size: 12px;
+    margin: 5px 0px 0px 9px;
+  }
+  .online-business h1{
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .successfull .right-text h3{
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .inner-feature{
+    padding: 10px 20px;
+    margin: 0px 10px 20px;
+    width: 85%;
+  }
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+  .container{
+    width: 90%;
+    margin: 0px auto;
+  }
+  .row{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-12{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-3{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-6{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-9{
+    width: 100%;
+    float: left;
+  }
+  .header .navbar li a{
+    font-size: 12px;
+    margin: 5px 0px 0px 20px;
+  }
+  .online-business h1{
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .successfull .right-text h3{
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .inner-feature{
+    padding: 10px 20px;
+    margin: 0px 10px 20px;
+    width: 95%;
+  }
+ 
+}
+@media (min-width: 768px) and (max-width: 1024px){
+
+  .container{
+    width: 90%;
+    margin: 0px auto;
+  }
+  .row{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-12{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-3{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-6{
+    width: 100%;
+    float: left;
+  }
+  .col-lg-9{
+    width: 100%;
+    float: left;
+  }
+  
+  .header .navbar li a {
+    font-size: 14px;
+    margin: 5px 0px 0px 25px;
+}
+  .online-business h1{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .successfull .right-text h3{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .inner-feature{
+    padding: 10px 20px;
+    margin: 0px 10px 20px;
+    width: 95%;
+  }
+ 
+}
+
+
+
+/* responsive css media code end*/
